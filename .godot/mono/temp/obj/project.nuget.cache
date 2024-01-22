@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "62bndkD1h80nqp0rjiwJONwpQKBAlz9s5jcgPta+279ZD6i++3BBU8/YArhsadU2sNd5PLwxyBSfanWOtd1LKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andre\\Documents\\FloatSimulator\\FloatSimulator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andre\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\Andre\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\Andre\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

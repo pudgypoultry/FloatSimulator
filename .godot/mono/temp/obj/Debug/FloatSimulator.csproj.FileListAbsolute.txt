@@ -1,0 +1,17 @@
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\FloatSimulator.deps.json
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\FloatSimulator.runtimeconfig.json
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\FloatSimulator.dll
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\ref\FloatSimulator.dll
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\FloatSimulator.pdb
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.csproj.AssemblyReference.cache
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.AssemblyInfo.cs
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.csproj.CopyComplete
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.dll
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\ref\FloatSimulator.dll
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.pdb
+C:\Users\Andre\Documents\FloatSimulator\.godot\mono\temp\obj\Debug\FloatSimulator.genruntimeconfig.cache
