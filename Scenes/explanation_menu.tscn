@@ -1,9 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dlfbk3evu5pcy"]
 
 [ext_resource type="PackedScene" uid="uid://dfctydsctrrvs" path="res://Scenes/menu_button.tscn" id="1_06n3i"]
-
-[sub_resource type="SystemFont" id="SystemFont_rbaru"]
-font_names = PackedStringArray("MMRock9")
+[ext_resource type="FontFile" uid="uid://dta5ub6hkqfo8" path="res://Fonts/mmrock9/MMRock9.ttf" id="1_ybke6"]
 
 [node name="ExplanationMenu" type="VBoxContainer"]
 anchors_preset = 15
@@ -21,7 +19,7 @@ size_flags_vertical = 3
 [node name="What is a float?" type="Label" parent="TabContainer"]
 custom_minimum_size = Vector2(600, 0)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_rbaru")
+theme_override_fonts/font = ExtResource("1_ybke6")
 text = "
     A \"float\" is a data type used in computers to represent non-integer numbers. When we use while we program, they feel relatively intuitive to work with because we thinking of them just as we normally would in any math class.
 
@@ -36,7 +34,7 @@ autowrap_mode = 2
 visible = false
 custom_minimum_size = Vector2(1000, 0)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_rbaru")
+theme_override_fonts/font = ExtResource("1_ybke6")
 text = "
     In order to understand how a float is represented in bits, we need to look at the different parts separately. Think about how we usually deal with scientific notation:
 
@@ -44,7 +42,7 @@ text = "
           1.29 x 10^(-7)  =  0.000000129
          -3.23 x 10^2     = -323
 
-Similarly, in binary, we can do very similar:
+In binary, we can do very similar:
 
           1.101 x 2^4     = 11010
           1.01 x 2^(-5)   = 0.0000101
@@ -65,7 +63,7 @@ autowrap_mode = 2
 visible = false
 custom_minimum_size = Vector2(1100, 0)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_rbaru")
+theme_override_fonts/font = ExtResource("1_ybke6")
 text = "
 There are two somewhat non-obvious rules that need to be paid attention to.
 
@@ -84,7 +82,7 @@ autowrap_mode = 2
 visible = false
 custom_minimum_size = Vector2(1000, 0)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_rbaru")
+theme_override_fonts/font = ExtResource("1_ybke6")
 text = "
 Say we have the following 32 bits:
 
@@ -108,7 +106,7 @@ autowrap_mode = 2
 visible = false
 custom_minimum_size = Vector2(1000, 0)
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_rbaru")
+theme_override_fonts/font = ExtResource("1_ybke6")
 text = "
 Say we have 13.65625
 

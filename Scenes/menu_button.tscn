@@ -3,10 +3,7 @@
 [ext_resource type="Script" path="res://Scripts/MainMenuButton.gd" id="1_tba5y"]
 [ext_resource type="Texture2D" uid="uid://cj3n8xjx4odej" path="res://Images/Arrow.png" id="2_qxrsf"]
 [ext_resource type="Texture2D" uid="uid://bpnadh3e0x8qy" path="res://Images/ArrowNo.png" id="3_l2pp8"]
-
-[sub_resource type="SystemFont" id="SystemFont_kerye"]
-font_names = PackedStringArray("MMRock9")
-subpixel_positioning = 0
+[ext_resource type="FontFile" uid="uid://dta5ub6hkqfo8" path="res://Fonts/mmrock9/MMRock9.ttf" id="4_ncnxd"]
 
 [node name="MenuButton" type="HBoxContainer" node_paths=PackedStringArray("selectedArrow")]
 anchors_preset = 4
@@ -31,7 +28,7 @@ texture = ExtResource("3_l2pp8")
 
 [node name="MenuButtonName" type="Label" parent="."]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_kerye")
+theme_override_fonts/font = ExtResource("4_ncnxd")
 theme_override_font_sizes/font_size = 32
 text = "Text"
 

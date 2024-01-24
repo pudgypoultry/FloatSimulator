@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://jlitlmm7ppjl"]
+[gd_scene load_steps=26 format=3 uid="uid://jlitlmm7ppjl"]
 
 [ext_resource type="Texture2D" uid="uid://b7e4vixxhkbqq" path="res://Images/A.png" id="1_73yvt"]
 [ext_resource type="PackedScene" uid="uid://d1krg400ns3sn" path="res://Scenes/FloatButtons.tscn" id="2_ep50q"]
@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://s8q7li7tkxi7" path="res://Images/D.png" id="15_e4bs0"]
 [ext_resource type="Texture2D" uid="uid://cufdhbol71wo8" path="res://Images/E.png" id="16_kcnht"]
 [ext_resource type="Texture2D" uid="uid://cutt2stu06ucm" path="res://Images/F.png" id="17_w7236"]
+[ext_resource type="FontFile" uid="uid://dta5ub6hkqfo8" path="res://Fonts/mmrock9/MMRock9.ttf" id="18_2e4ys"]
 [ext_resource type="PackedScene" uid="uid://dfctydsctrrvs" path="res://Scenes/menu_button.tscn" id="18_j6cg5"]
 [ext_resource type="Script" path="res://Scripts/SubmitBitAnswer.gd" id="18_rcqkg"]
 [ext_resource type="Script" path="res://Scripts/GenerateQuestion.gd" id="19_5o483"]
@@ -43,28 +44,18 @@ default_font = SubResource("SystemFont_u7xpu")
 default_font_size = 12
 TooltipPanel/styles/panel = SubResource("StyleBoxFlat_ddeoc")
 
-[sub_resource type="SystemFont" id="SystemFont_1ordl"]
-font_names = PackedStringArray("MMRock9")
-subpixel_positioning = 0
-
-[sub_resource type="SystemFont" id="SystemFont_cl08p"]
-font_names = PackedStringArray("MMRock9")
-
-[sub_resource type="SystemFont" id="SystemFont_qserv"]
-font_names = PackedStringArray("MMRock9")
-subpixel_positioning = 0
-
 [node name="FloatToBitQuiz" type="VBoxContainer"]
-anchors_preset = 7
+anchors_preset = 8
 anchor_left = 0.5
-anchor_top = 1.0
+anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 1.0
+anchor_bottom = 0.5
 offset_left = -559.0
-offset_top = -457.0
+offset_top = -270.5
 offset_right = 559.0
+offset_bottom = 270.5
 grow_horizontal = 2
-grow_vertical = 0
+grow_vertical = 2
 
 [node name="NibbleImages" type="HBoxContainer" parent="."]
 layout_mode = 2
@@ -154,7 +145,7 @@ color = Color(0.713726, 0, 0.00784314, 1)
 [node name="SubmitFloatAnswer" type="Button" parent="." node_paths=PackedStringArray("floatText", "floatButtons", "answerButtons")]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_1ordl")
+theme_override_fonts/font = ExtResource("18_2e4ys")
 text = "Submit Answer"
 script = ExtResource("18_rcqkg")
 floatText = NodePath("../EnterFloatHere")
@@ -169,7 +160,7 @@ layout_mode = 2
 custom_minimum_size = Vector2(350, 50)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_cl08p")
+theme_override_fonts/font = ExtResource("18_2e4ys")
 placeholder_text = "Enter Float Here"
 editable = false
 
@@ -187,7 +178,7 @@ custom_minimum_size = Vector2(350, 0)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme_override_fonts/font = SubResource("SystemFont_qserv")
+theme_override_fonts/font = ExtResource("18_2e4ys")
 text = "Generate Easy Float"
 
 [node name="QuestionBank" type="Node" parent="HBoxContainer"]
@@ -198,7 +189,7 @@ custom_minimum_size = Vector2(350, 0)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme_override_fonts/font = SubResource("SystemFont_qserv")
+theme_override_fonts/font = ExtResource("18_2e4ys")
 text = "Generate Random Float"
 
 [node name="Spacing2" type="Label" parent="."]

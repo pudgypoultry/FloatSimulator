@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://mqq5efqvmut0"]
+[gd_scene load_steps=25 format=3 uid="uid://mqq5efqvmut0"]
 
 [ext_resource type="PackedScene" uid="uid://d1krg400ns3sn" path="res://Scenes/FloatButtons.tscn" id="1_pa6o6"]
 [ext_resource type="Script" path="res://Scripts/FloatToArray.gd" id="2_a0uxu"]
@@ -19,6 +19,7 @@
 [ext_resource type="Texture2D" uid="uid://s8q7li7tkxi7" path="res://Images/D.png" id="15_4hcx6"]
 [ext_resource type="Texture2D" uid="uid://cufdhbol71wo8" path="res://Images/E.png" id="16_8cdt3"]
 [ext_resource type="Texture2D" uid="uid://cutt2stu06ucm" path="res://Images/F.png" id="17_bygwu"]
+[ext_resource type="FontFile" uid="uid://dta5ub6hkqfo8" path="res://Fonts/mmrock9/MMRock9.ttf" id="18_ilqu1"]
 [ext_resource type="PackedScene" uid="uid://dfctydsctrrvs" path="res://Scenes/menu_button.tscn" id="20_unyqn"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_imfbu"]
@@ -42,23 +43,18 @@ default_font = SubResource("SystemFont_rnxf1")
 default_font_size = 12
 TooltipPanel/styles/panel = SubResource("StyleBoxFlat_imfbu")
 
-[sub_resource type="SystemFont" id="SystemFont_qhv4e"]
-font_names = PackedStringArray("MMRock9")
-
-[sub_resource type="SystemFont" id="SystemFont_5ubgt"]
-font_names = PackedStringArray("MMRock9")
-
 [node name="ConversionScene" type="VBoxContainer"]
-anchors_preset = 7
+anchors_preset = 8
 anchor_left = 0.5
-anchor_top = 1.0
+anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 1.0
+anchor_bottom = 0.5
 offset_left = -559.0
-offset_top = -438.0
+offset_top = -258.5
 offset_right = 559.0
+offset_bottom = 258.5
 grow_horizontal = 2
-grow_vertical = 0
+grow_vertical = 2
 alignment = 1
 
 [node name="NibbleImages" type="HBoxContainer" parent="."]
@@ -149,7 +145,7 @@ color = Color(0.713726, 0, 0.00784314, 1)
 [node name="ArrayToFloat" type="Button" parent="." node_paths=PackedStringArray("floatText", "floatButtons")]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_qhv4e")
+theme_override_fonts/font = ExtResource("18_ilqu1")
 text = "Convert Bitstring to Float"
 script = ExtResource("2_pyr5j")
 floatText = NodePath("../EnterFloatHere")
@@ -163,13 +159,13 @@ layout_mode = 2
 custom_minimum_size = Vector2(350, 50)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_5ubgt")
+theme_override_fonts/font = ExtResource("18_ilqu1")
 placeholder_text = "Enter Float Here"
 
 [node name="FloatToArray" type="Button" parent="." node_paths=PackedStringArray("floatText", "floatButtons")]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_qhv4e")
+theme_override_fonts/font = ExtResource("18_ilqu1")
 text = "Convert Float to Bitstring"
 script = ExtResource("2_a0uxu")
 floatText = NodePath("../EnterFloatHere")

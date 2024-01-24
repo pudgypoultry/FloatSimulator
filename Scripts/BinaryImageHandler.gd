@@ -24,7 +24,7 @@ func SetImages(floatToConvert : float):
 			imageArray[i].toggle_mode = true
 	
 	
-	print_debug("Float Converted: ", floatToConvert)
+	# print_debug("Float Converted: ", floatToConvert)
 
 func ReadImages() -> float:
 	var floatConverterScript = load("res://Scripts/FloatToBinary.gd")

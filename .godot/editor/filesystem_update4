@@ -1,8 +1,10 @@
 res://Scenes/MainScene.tscn
-res://Scripts/FloatToBinary.gd
 res://Scenes/explanation_menu.tscn
 res://Scenes/float_to_bit_quiz.tscn
 res://Scenes/credits.tscn
 res://test.tscn
-res://Scripts/FloatToBinary.cs
 res://Scripts/BinaryImageHandler.gd
+res://Scenes/bit_to_float_quiz.tscn
+res://Scenes/menu_button.tscn
+res://Scenes/binary_button.tscn
+res://Scenes/conversion_scene.tscn
